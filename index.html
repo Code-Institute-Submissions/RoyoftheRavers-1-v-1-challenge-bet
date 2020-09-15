@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -71,13 +72,14 @@
                 </div>
                 <!--Button to Initiate Modal, Game, Set Data and Challenge Friend-->
                 <div style="margin-top:30px">
-                    <button type="button" id="start1" class="btn btn-info" data-toggle="modal" data-target="#ModalSweepstakes">Challenge Friend!
-                    </button>   
-                        <div class="modal fade" id="ModalSweepstakes" tabindex="-1" role="dialog" aria-labelledby="ModalSweepstakes" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                    <button type="button" id="start1" class="btn btn-info" data-toggle="modal" data-target="#ModalMatch1">Challenge Friend!
+                    </button>
+                        <!--Modal-->   
+                        <div class="modal fade" id="ModalMatch1" tabindex="-1" role="dialog" aria-labelledby="ModalMatch1" aria-hidden="true">
+                            <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="ModalSweepstakes">Your Challenge Bet has been accepted!</h5>
+                                        <h5 class="modal-title" id="Modal1">Your Challenge Bet has been accepted!</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -93,7 +95,7 @@
                                 </div>
                             </div>
                         </div>
-
+                </div> 
             </div>
 
         <!--Second Match Option-->
