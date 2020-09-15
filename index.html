@@ -48,10 +48,42 @@
 
     <!---Accordian here for each Challenge Bet-->
     <div id="accordion">
+        <!--First Match-->
         <h3>Football: Man United v Liverpool</h3>
             <div>
                 <p>Premier League match between Manchester United and Liverpol.</p>
+                <!--User and Name Data-->
+                <div id="user-data">
+                    <h3>Please enter your name</h3>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <!--User Options to set Amount Bet and Team Selction-->
+                <div id="game-options">
+                    <h3>Choose an amount to bet</h3>
+                    <label for="amount">Amount €:</label>
+                    <select name="amount" id="amount">
+                        <option value="€10">10</option>
+                        <option value="€20">20</option>
+                        <option value="€50">50</option>
+                    </select>
+                    <h3>Make your Prediction</h3>
+                    <label for="prediction">Which team do you predict to win?</label>
+                    <select name="prediction" id="prediction">
+                        <option value="Man United">Man United</option>
+                        <option value="Liverpool">Liverpool</option>
+                    </select>
+                    <p class="draw-refund">Please note: A draw will result in a refund for both players.</p>
+                </div>
+                <!--Button to Initiate Game, Set Data and Challenge Friend-->
+                <div style="margin-top:30px">
+                    <button id="start">Challenge Friend!</button>
+                </div>
             </div>
+
+        <!--Second Match-->
         <h3>Football: Real Madrid v Barcelona</h3>
             <div>
                 <p>La Liga match between Real Madrid v Barcelona, 'El Clasico'. </p>
