@@ -10,7 +10,7 @@ let gameStart = document.getElementById("start1");
 
 
 // When the user clicks the button, the script gathers the choices
-gameStart.addEventListener("click", function(){
+gameStart.addEventListener("click", function (){
   
   // Get the user's first name
   let firstName = document.getElementById("first-name");
@@ -21,10 +21,23 @@ gameStart.addEventListener("click", function(){
   // Get the Prediction chosen
   let prediction1 = document.getElementById("prediction").value;
 
-  if (prediction1 = "Man United") {
-      document.getElementById("mb1").innerHTML = firstName + ", you have chosen" + prediction1 + " and are have bet €" + gameAmount + ". Best of luck!";
-  };  
+    
+   let updateModal = document.getElementById("mb1").innerHTML = ` ${firstName}, you have chosen${prediction1} and are have bet €${gameAmount}. Best of luck!`;
+   console.log(updateModal); 
+   
+   /*var messageTwo = 'Hi ${first-Name}, your team choice is ${prediction1} and your bet is ${gameAmount}';
+   console.log(messageTwo);*/
 });
+
+    // Game functions
+
+    function runGameManUtdLiv(firstName, gameAmount, prediction) {
+        document.getElementById("game-container").innerHTML = "<h3>Good news " + name + ", your friend has accepted your challenge, game on!<br>;" +
+        "</h3><h3>The amount of your bet is €"+ gameAmount + ".<br> The team you chose to win is " + prediction + "." + "</h3>";
+        console.log("Match 1..");
+    }
+
+
 
 
   // For final modal define variables
