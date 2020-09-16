@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">  
     <title>1 v 1 Challenge Bet</title>
 </head>
 <body>
@@ -71,11 +69,10 @@
                     <p class="draw-refund">Please note: A draw will result in a refund for both players.</p>
                 </div>
                 <!--Button to Initiate Modal, Game, Set Data and Challenge Friend-->
-                <div style="margin-top:30px">
                     <button type="button" id="start1" class="btn btn-info" data-toggle="modal" data-target="#ModalMatch1">Challenge Friend!
                     </button>
-                        <!--Modal-->   
-                        <div class="modal fade" id="ModalMatch1" tabindex="-1" role="dialog" aria-labelledby="ModalMatch1" aria-hidden="true">
+                    <!--Modal-->   
+                        <div class="modal" id="ModalMatch1" tabindex="-1" role="dialog" aria-labelledby="ModalMatch1" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -95,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                </div> 
+                        
             </div>
 
         <!--Second Match Option-->
@@ -237,8 +234,11 @@
                 </div>
             </div>
     </div>
-
-    
+                        
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>    
 </body>
 </html>
