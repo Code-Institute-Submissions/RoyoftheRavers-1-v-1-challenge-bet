@@ -32,7 +32,7 @@ gameStart.addEventListener("click", function (){
     // Game functions
 
     function runGameManUtdLiv(firstName, gameAmount, prediction) {
-        document.getElementById("game-container").innerHTML = "<h3>Good news " + name + ", your friend has accepted your challenge, game on!<br>;" +
+        document.getElementById("mb1").innerHTML = "<h3>Good news " + name + ", your friend has accepted your challenge, game on!<br>;" +
         "</h3><h3>The amount of your bet is €"+ gameAmount + ".<br> The team you chose to win is " + prediction + "." + "</h3>";
         console.log("Match 1..");
     }
