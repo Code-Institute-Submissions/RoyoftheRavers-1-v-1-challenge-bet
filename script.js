@@ -18,16 +18,16 @@ gameStart.addEventListener("click", function (){
     let prediction1 = document.getElementById("prediction1").value;
     // Get the Amount chosen
     let gameAmount1 = document.getElementById("amount1").value;
-    console.log(gameAmount);
+    console.log(gameAmount1);
 
     // Create variable to update the modal based on game choices made
-    let updateModal = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
+    let updateModal1 = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
     You have chosen ${prediction1} to win in the match<br>
     between Man United and Liverpool.<br>
     Your amount staked is ` + `${gameAmount1}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
-    console.log(updateModal);
+    console.log(updateModal1);
 });
 
 // Add match results to local Storage
@@ -40,14 +40,24 @@ localStorage.setItem("match5result", "Dublin");
 // The result generating starts with clicking the 'See Result' button
 let seeResult1 = document.getElementById("start1b");
 
-// Add event listener for button
+// When the user clicks the button, script gets results to return
 seeResult1.addEventListener("click", function() {
 
-// Get match results from local Storage
-let result1 = localStorage.getItem("match1result");
-console.log(result1);
+    // Get the user's first name
+    let firstName1 = document.getElementById("first-name1").value;
 
-// Return result outcome based on prediction
+    // Get match results from local Storage
+    let result1 = localStorage.getItem("match1result");
+    console.log(result1);
+
+    // Return result outcome by updating Modal Header/Content/Footer based on prediction
+    if(prediction1 = result1) {
+        let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Congrats ${firstName1}`;
+        console.log(updateModalh);
+        console.log(updateModal2);
+    }
+    
 
 });
 
