@@ -15,8 +15,14 @@ gameStart.addEventListener("click", function (){
   // Get the user's first name
   let firstName = document.getElementById("first-name").value;
   console.log(firstName);
+  // Get the user's team choice
+  let prediction = document.getElementById("prediction1").value;
+  // Get the match event
+  let matchDetail = document.getElementById("detail1").value;
+  console.log(matchDetail);
   let updateModal = document.getElementById("mb1").innerHTML = `${firstName}, good news, your bet is on!<br> 
-  You have chosen`;
+  You have chosen ${prediction} in the<br>
+  ${matchDetail}`;
   console.log(updateModal);
   // Get the user's last name
   /* let lastName = document.getElementById("last-name").value;
