@@ -13,16 +13,19 @@ let gameStart = document.getElementById("start1");
 gameStart.addEventListener("click", function (){
   
   // Get the user's first name
-  let firstName = document.getElementById("first-name").value;
+  let firstName = document.getElementById("first-name1").value;
   console.log(firstName);
   // Get the user's team choice
   let prediction = document.getElementById("prediction1").value;
-  // Get the match event
-  let matchDetail = document.getElementById("detail1").value;
-  console.log(matchDetail);
+  // Get the Amount chosen
+  let gameAmount = document.getElementById("amount1").value;
+  console.log(gameAmount);
   let updateModal = document.getElementById("mb1").innerHTML = `${firstName}, good news, your bet is on!<br> 
-  You have chosen ${prediction} in the<br>
-  ${matchDetail}`;
+  You have chosen ${prediction} to win in the match<br>
+  between Man United and Liverpool.<br>
+  Your amount staked is ` + `${gameAmount}<br>
+  Best of luck!<br><br>
+  PS when the match is over you can check the result below:`;
   console.log(updateModal);
   // Get the user's last name
   /* let lastName = document.getElementById("last-name").value;
