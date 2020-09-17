@@ -11,23 +11,23 @@ let gameStart = document.getElementById("start1a");
 // When the user clicks the button, the script gathers the choices
 gameStart.addEventListener("click", function (){
   
-// Get the user's first name
-let firstName = document.getElementById("first-name1").value;
-console.log(firstName);
-// Get the user's team choice
-let prediction = document.getElementById("prediction1").value;
-// Get the Amount chosen
-let gameAmount = document.getElementById("amount1").value;
-console.log(gameAmount);
+    // Get the user's first name
+    let firstName1 = document.getElementById("first-name1").value;
+    console.log(firstName1);
+    // Get the user's team choice
+    let prediction1 = document.getElementById("prediction1").value;
+    // Get the Amount chosen
+    let gameAmount1 = document.getElementById("amount1").value;
+    console.log(gameAmount);
 
-// Create variable to update the modal based on game choices made
-let updateModal = document.getElementById("mb1").innerHTML = `${firstName}, good news, your bet is on!<br> 
-You have chosen ${prediction} to win in the match<br>
-between Man United and Liverpool.<br>
-Your amount staked is ` + `${gameAmount}<br>
-Best of luck!<br><br>
-PS when the match is over you can check the result below:`;
-console.log(updateModal);
+    // Create variable to update the modal based on game choices made
+    let updateModal = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
+    You have chosen ${prediction1} to win in the match<br>
+    between Man United and Liverpool.<br>
+    Your amount staked is ` + `${gameAmount1}<br>
+    Best of luck!<br><br>
+    PS when the match is over you can check the result below:`;
+    console.log(updateModal);
 });
 
 // Add match results to local Storage
@@ -43,10 +43,11 @@ let seeResult1 = document.getElementById("start1b");
 // Add event listener for button
 seeResult1.addEventListener("click", function() {
 
-// Get result from local Storage
+// Get match results from local Storage
 let result1 = localStorage.getItem("match1result");
 console.log(result1);
 
+// Return result outcome based on prediction
 
 });
 
