@@ -5,9 +5,8 @@ $( function() {
     });
   } );
 
-// The game starts with this button will be this button
-let gameStart = document.getElementById("start1");
-
+// The game starts with this button for 'Challenge Friend'
+let gameStart = document.getElementById("start1a");
 
 // When the user clicks the button, the script gathers the choices
 gameStart.addEventListener("click", function (){
@@ -20,6 +19,8 @@ gameStart.addEventListener("click", function (){
   // Get the Amount chosen
   let gameAmount = document.getElementById("amount1").value;
   console.log(gameAmount);
+
+  // Create variable to update the modal based on game choices made
   let updateModal = document.getElementById("mb1").innerHTML = `${firstName}, good news, your bet is on!<br> 
   You have chosen ${prediction} to win in the match<br>
   between Man United and Liverpool.<br>
@@ -27,22 +28,11 @@ gameStart.addEventListener("click", function (){
   Best of luck!<br><br>
   PS when the match is over you can check the result below:`;
   console.log(updateModal);
-  // Get the user's last name
-  /* let lastName = document.getElementById("last-name").value;
-  // Get the Amount chosen
-  let gameAmount = document.getElementById("amount").value;
-  // Get the Prediction chosen
-  let prediction1 = document.getElementById("prediction").value;
-
-  
-
-    
-   let updateModal = document.getElementById("mb1").innerHTML = ` ${firstName}, you have chosen${prediction1} and have bet €${gameAmount}. Best of luck!`;
-   console.log(updateModal); 
-   
-   /*var messageTwo = 'Hi ${first-Name}, your team choice is ${prediction1} and your bet is ${gameAmount}';
-   console.log(messageTwo);*/
 });
+
+   // Add match results to local Storage
+    localStorage.setItem("match1result", "Man United");
+    
 
     // Game functions
 
@@ -60,4 +50,4 @@ gameStart.addEventListener("click", function (){
 
   // Use method chaining to update classes based on button click and if statement
 
-  localStorage.setItem("match1result", "Man United");
+  
