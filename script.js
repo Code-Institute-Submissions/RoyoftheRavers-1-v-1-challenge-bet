@@ -32,7 +32,11 @@ gameStart.addEventListener("click", function (){
 
    // Add match results to local Storage
     localStorage.setItem("match1result", "Man United");
-    
+    localStorage.setItem("match2result", "Barcelona");
+    localStorage.setItem("match3result", "Draw");
+    localStorage.setItem("match4result", "The Field");
+    localStorage.setItem("match5result", "Dublin");
+
 
     // Game functions
 
