@@ -56,7 +56,11 @@ seeResult1.addEventListener("click", function() {
         let updateModal2 = document.getElementById("mb1").innerHTML = `Congrats ${firstName1}`;
         console.log(updateModalh);
         console.log(updateModal2);
-    }
+    };
+
+    // Remove 'See Result' button from second modal
+    $("#start1b").remove();
+
     
 
 });
