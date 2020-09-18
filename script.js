@@ -52,8 +52,15 @@ seeResult1.addEventListener("click", function() {
 
     // Return result outcome by updating Modal Header/Content/Footer based on prediction
     if(prediction1 = result1) {
+
+        let gameAmount1 = document.getElementById("amount1").value;
+        console.log(gameAmount1);
+        let amountNumeric1 = parseInt(gameAmount1, 10);
+        console.log(amountNumeric1);
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
-        let updateModal2 = document.getElementById("mb1").innerHTML = `Congrats ${firstName1}`;
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br>
+        ${prediction1} have won the match against Liverpool,<br>
+        You have won ${amountNumeric1}!`;
         console.log(updateModalh);
         console.log(updateModal2);
     };
