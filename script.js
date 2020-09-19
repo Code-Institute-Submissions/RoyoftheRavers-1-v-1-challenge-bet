@@ -18,7 +18,7 @@ gameStart.addEventListener("click", function (){
     let prediction1 = document.getElementById("prediction1").value;
     // Get the Amount chosen
     let gameAmount1 = document.getElementById("amount1").value;
-    console.log(gameAmount1);
+    console.log(gameAmountNumber1);
 
     // Create variable to update the modal based on game choices made
     let updateModal1 = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
@@ -54,15 +54,18 @@ seeResult1.addEventListener("click", function() {
     if(prediction1 = result1) {
 
         let gameAmount1 = document.getElementById("amount1").value;
-        console.log(gameAmount1);
-        let amountNumeric1 = parseInt(gameAmount1, 10);
-        console.log(amountNumeric1);
+        //let gameAmount1Slice = gameAmount1.slice(1, 2);
+        //let gameAmount1Number = parseInt(gameAmount1Slice);
+        //console.log(gameAmount1);
+        //console.log(typeof(gameAmount1Number));
+        /*let gameAmountNumber1 = parseInt(gameAmount1);
+        console.log(gameAmountNumber1);
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
         let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br>
         ${prediction1} have won the match against Liverpool,<br>
-        You have won ${amountNumeric1}!`;
+        You have won ${gameAmountNumber1}!`;
         console.log(updateModalh);
-        console.log(updateModal2);
+        console.log(updateModal2);*/
     };
 
     // Remove 'See Result' button from second modal
