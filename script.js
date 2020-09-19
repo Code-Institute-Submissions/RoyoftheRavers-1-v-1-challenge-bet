@@ -5,6 +5,18 @@ $( function() {
     });
   } );
 
+// Add matches and match results to local Storage
+localStorage.setItem("match1", "between Man United and Liverpol.");
+localStorage.setItem("match2", "between Real Madrid and Barcelona.");
+localStorage.setItem("match3", "between Ireland and England.");
+localStorage.setItem("match4", "between Rory McIlroy and The Field.");
+localStorage.setItem("match5", "between Dublin and Kerry.");
+localStorage.setItem("match1result", "Man United");
+localStorage.setItem("match2result", "Barcelona");
+localStorage.setItem("match3result", "Draw");
+localStorage.setItem("match4result", "The Field");
+localStorage.setItem("match5result", "Dublin");
+
 // The game starts with this button for 'Challenge Friend'
 let gameStart = document.getElementById("start1a");
 
@@ -29,18 +41,6 @@ gameStart.addEventListener("click", function (){
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
 });
-
-// Add matches and match results to local Storage
-localStorage.setItem("match1", "between Man United and Liverpol.");
-localStorage.setItem("match2", "between Real Madrid and Barcelona.");
-localStorage.setItem("match3", "between Ireland and England.");
-localStorage.setItem("match4", "between Rory McIlroy and The Field.");
-localStorage.setItem("match5", "between Dublin and Kerry.");
-localStorage.setItem("match1result", "Man United");
-localStorage.setItem("match2result", "Barcelona");
-localStorage.setItem("match3result", "Draw");
-localStorage.setItem("match4result", "The Field");
-localStorage.setItem("match5result", "Dublin");
 
 // The result generating starts with clicking the 'See Result' button
 let seeResult1 = document.getElementById("start1b");
@@ -71,7 +71,27 @@ seeResult1.addEventListener("click", function() {
         You have won €${gameAmount1Number * 2}!`;
         console.log(updateModalh);
         console.log(updateModal2);
-    };
+
+    } else if(result1 = "Draw") {
+        // Get amount and convert to number
+        let gameAmount1 = document.getElementById("amount1").value;
+        gameAmount1Slice = gameAmount1.slice(1);
+        gameAmount1Number = parseInt(gameAmount1Slice);
+        // Get the match
+        let match1 = localStorage.getItem("match1");
+        // Update HTML in modal
+        let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Close call ${firstName1}! <br><br>
+        It has ended in a draw in the match<br>
+        ${match1}<br><br>
+        You have been refunded €${gameAmount1Number} in game credit to use on any other challenge bets.<br>
+        Good luck in your next challenge bet!`;
+        console.log(updateModalh);
+        console.log(updateModal2);
+
+        
+        }
+    });
 
     // Remove 'See Result' button from second modal
     $("#start1b").remove();
