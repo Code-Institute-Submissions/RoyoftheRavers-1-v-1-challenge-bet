@@ -30,7 +30,12 @@ gameStart.addEventListener("click", function (){
     console.log(updateModal1);
 });
 
-// Add match results to local Storage
+// Add matches and match results to local Storage
+localStorage.setItem("match1", "Match between Man United and Liverpol.");
+localStorage.setItem("match2", "Match between Man United and Liverpol.");
+localStorage.setItem("match3", "Match between Ireland and England.");
+localStorage.setItem("match4", "Match between Rory McIlroy and The Field.");
+localStorage.setItem("match5", "Match between Dublin and Kerry.");
 localStorage.setItem("match1result", "Man United");
 localStorage.setItem("match2result", "Barcelona");
 localStorage.setItem("match3result", "Draw");
@@ -63,7 +68,7 @@ seeResult1.addEventListener("click", function() {
         console.log(typeof(gameAmount1Number));
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
         let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br>
-        ${prediction1} have won the match against Liverpool,<br><br>
+        ${prediction1} have won the match against Liverpool<br><br>
         You have won €${gameAmount1Number * 2}!`;
         console.log(updateModalh);
         console.log(updateModal2);
