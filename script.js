@@ -31,11 +31,11 @@ gameStart.addEventListener("click", function (){
 });
 
 // Add matches and match results to local Storage
-localStorage.setItem("match1", "Match between Man United and Liverpol.");
-localStorage.setItem("match2", "Match between Man United and Liverpol.");
-localStorage.setItem("match3", "Match between Ireland and England.");
-localStorage.setItem("match4", "Match between Rory McIlroy and The Field.");
-localStorage.setItem("match5", "Match between Dublin and Kerry.");
+localStorage.setItem("match1", "between Man United and Liverpol.");
+localStorage.setItem("match2", "between Real Madrid and Barcelona.");
+localStorage.setItem("match3", "between Ireland and England.");
+localStorage.setItem("match4", "between Rory McIlroy and The Field.");
+localStorage.setItem("match5", "between Dublin and Kerry.");
 localStorage.setItem("match1result", "Man United");
 localStorage.setItem("match2result", "Barcelona");
 localStorage.setItem("match3result", "Draw");
@@ -57,18 +57,17 @@ seeResult1.addEventListener("click", function() {
 
     // Return result outcome by updating Modal Header/Content/Footer based on prediction
     if(prediction1 = result1) {
-
+        // Get amount and convert to number
         let gameAmount1 = document.getElementById("amount1").value;
-        console.log(gameAmount1);
         gameAmount1Slice = gameAmount1.slice(1);
-        console.log(gameAmount1Slice);
-        console.log(typeof(gameAmount1Slice));
         gameAmount1Number = parseInt(gameAmount1Slice);
-        console.log(gameAmount1Number);
-        console.log(typeof(gameAmount1Number));
+        // Get the match
+        let match1 = localStorage.getItem("match1");
+        // Update HTML in modal
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
-        let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br>
-        ${prediction1} have won the match against Liverpool<br><br>
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br><br>
+        ${result1} have won the match<br>
+        ${match1}<br><br>
         You have won €${gameAmount1Number * 2}!`;
         console.log(updateModalh);
         console.log(updateModal2);
