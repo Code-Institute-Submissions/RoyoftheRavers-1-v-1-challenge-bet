@@ -87,10 +87,19 @@ seeResult1.addEventListener("click", function() {
         You have been refunded €${gameAmount1Number} in game credit to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
         console.log(updateModalh);
+        console.log(updateModal2); 
+    } else() {
+        // Get the match
+        let match1 = localStorage.getItem("match1");
+        // Update HTML in modal
+        let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Commiserations ${firstName1}! <br><br>
+        ${result1} have won the match<br>
+        ${match1}<br><br>
+        Better luck next time.`;
+        console.log(updateModalh);
         console.log(updateModal2);
-
-        
-        }
+    }
     });
 
     // Remove 'See Result' button from second modal
