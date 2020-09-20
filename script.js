@@ -88,11 +88,15 @@ seeResult1.addEventListener("click", function() {
         Good luck in your next challenge bet!`;
         console.log(updateModalh);
         console.log(updateModal2); 
-    } else() {
+    } else {
+        // Get amount and convert to number
+        let gameAmount1 = document.getElementById("amount1").value;
+        gameAmount1Slice = gameAmount1.slice(1);
+        gameAmount1Number = parseInt(gameAmount1Slice);
         // Get the match
-        let match1 = localStorage.getItem("match1");
+        //let match1 = localStorage.getItem("match1");
         // Update HTML in modal
-        let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
+        let updateModal1h = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`
         let updateModal2 = document.getElementById("mb1").innerHTML = `Commiserations ${firstName1}! <br><br>
         ${result1} have won the match<br>
         ${match1}<br><br>
@@ -100,27 +104,19 @@ seeResult1.addEventListener("click", function() {
         console.log(updateModalh);
         console.log(updateModal2);
     }
-    });
+    
 
     // Remove 'See Result' button from second modal
-    $("#start1b").remove();
+    $("#start1b").remove(); 
+    
 
     
 
 });
-
+    
     // Game functions
 
-    /*function runGameManUtdLiv(firstName, gameAmount, prediction) {
-        document.getElementById("mb1").innerHTML = "<h3>Good news " + name + ", your friend has accepted your challenge, game on!<br>;" +
-        "</h3><h3>The amount of your bet is €"+ gameAmount + ".<br> The team you chose to win is " + prediction + "." + "</h3>";
-        console.log("Match 1..");
-    runGameManUtdLiv();*/
     
-
-    
-
-
   // For final modal define variables
 
   // Use method chaining to update classes based on button click and if statement
