@@ -356,7 +356,7 @@ seeResult4.addEventListener("click", function() {
     console.log(prediction4);
 
     // Get match results from local Storage
-    let result4 = localStorage.getItem("match3result");
+    let result4 = localStorage.getItem("match4result");
     console.log(result4);
 
     // Return result outcome by updating Modal Header/Content/Footer based on prediction
@@ -372,8 +372,8 @@ seeResult4.addEventListener("click", function() {
         let updateModal4c = document.getElementById("mb4").innerHTML = `Congratulations ${firstName4}! <br><br>
         Dustin Johnson has won the US Open,<br>
         which is a win for "The Field" in the match<br>
-        ${match4}<br>
-        You have won €${gameAmount3Number * 2}!`;
+        ${match4}<br><br>
+        You have won €${gameAmount4Number * 2}!`;
         console.log(updateModal4b);
         console.log(updateModal4c);
 
