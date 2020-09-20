@@ -106,7 +106,7 @@ seeResult1.addEventListener("click", function() {
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
-        let updateModal1h = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`
+        let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`
         let updateModal2 = document.getElementById("mb1").innerHTML = `Commiserations ${firstName1}, <br><br>
         ${result1} have won the match<br>
         ${match1}<br><br>
@@ -124,27 +124,28 @@ let gameStart2 = document.getElementById("start2a");
 gameStart2.addEventListener("click", function (){
   
     // Get the user's first name
-    let firstName2 = document.getElementById("first-name2").value;
+    let firstName2 = document.getElementById("first-name1").value;
     console.log(firstName2);
     // Get the user's team choice
     let prediction2 = document.getElementById("prediction2").value;
     // Get the Amount chosen
     let gameAmount2 = document.getElementById("amount2").value;
+    //console.log(gameAmountNumber1);
     // Get the match
     let match2 = localStorage.getItem("match2");
 
     // Create variable to update the modal based on game choices made
-    let updateModal2a = document.getElementById("mb2").innerHTML = `${firstName2}, good news, your bet is on!<br> 
+    let updateModal2 = document.getElementById("mb2").innerHTML = `${firstName2}, good news, your bet is on!<br> 
     You have chosen ${prediction2} to win in the match<br>
     ${match2}<br>
     Your amount staked is ` + `${gameAmount2}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
-    console.log(updateModal2a);
+    console.log(updateModal2);
 });
 
 // The result generating starts with clicking the 'See Result' button
-let seeResult2 = document.getElementById("start2b");
+let seeResult2 = document.getElementById("start1b");
 
 // When the user clicks the button, script gets results to return
 seeResult2.addEventListener("click", function() {
@@ -164,7 +165,7 @@ seeResult2.addEventListener("click", function() {
     console.log(result2);
 
     // Return result outcome by updating Modal Header/Content/Footer based on prediction
-    if(prediction2 === result2) {
+    if(predictions === results) {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
         gameAmount2Slice = gameAmount2.slice(1);
@@ -172,13 +173,13 @@ seeResult2.addEventListener("click", function() {
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
-        let updateModal2b = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
-        let updateModal2c = document.getElementById("mb2b").innerHTML = `Congratulations ${firstName2}! <br><br>
+        let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
+        let updateModal2a = document.getElementById("mb2").innerHTML = `Congratulations ${firstName2}! <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
-        You have won €${gameAmount2Number * 2}!`;
-        console.log(updateModal2b);
-        console.log(updateModal2c);
+        You have won €${gameAmount1Number * 2}!`;
+        console.log(updateModal2);
+        console.log(updateModal2a);
 
     } else if(result2 === "Draw") {
         // Get amount and convert to number
@@ -188,14 +189,14 @@ seeResult2.addEventListener("click", function() {
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
-        let updateModa2b = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
-        let updateModal2c = document.getElementById("mb2").innerHTML = `Close call ${firstName2}! <br><br>
+        let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
+        let updateModal2a = document.getElementById("mb2").innerHTML = `Close call ${firstName2}! <br><br>
         It ended in a draw in the match<br>
         ${match2}<br><br>
         You have been refunded €${gameAmount2Number} in game credit to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
-        console.log(updateModa2b);
-        console.log(updateModal2c); 
+        console.log(updateModal2);
+        console.log(updateModal2a); 
     } else {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
@@ -204,14 +205,14 @@ seeResult2.addEventListener("click", function() {
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
-        let updateModal2b = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`
-        let updateModal2c = document.getElementById("mb2").innerHTML = `Commiserations ${firstName2}, <br><br>
+        let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`
+        let updateModal2a = document.getElementById("mb2").innerHTML = `Commiserations ${firstName1}, <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
         Better luck next time.`;
-        console.log(updateModal2b);
-        console.log(updateModal2c);
-    } 
+        console.log(updateModal2);
+        console.log(updateModal2a);
+    }  
 });
 
 // Match 3: Ireland v England
