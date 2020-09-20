@@ -232,7 +232,7 @@ gameStart3.addEventListener("click", function (){
     let match3 = localStorage.getItem("match3");
 
     // Create variable to update the modal based on game choices made
-    let updateModal3a = document.getElementById("mb3").innerHTML = `${firstName3}, good news, your bet is on!<br> 
+    let updateModal3a = document.getElementById("mb3").innerHTML = `${firstName3}, good news, your bet is on!<br><br> 
     You have chosen ${prediction3} to win in the match<br>
     ${match3}<br>
     Your amount staked is ` + `${gameAmount3}<br>
@@ -330,9 +330,9 @@ gameStart4.addEventListener("click", function (){
     let match4 = localStorage.getItem("match4");
 
     // Create variable to update the modal based on game choices made
-    let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on!<br> 
+    let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on!<br><br> 
     You have chosen ${prediction4} to win in the match<br>
-    ${match4}<br>
+    ${match4} in the US Open.<br>
     Your amount staked is ` + `${gameAmount4}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
@@ -414,7 +414,7 @@ gameStart5.addEventListener("click", function (){
     let match5 = localStorage.getItem("match5");
 
     // Create variable to update the modal based on game choices made
-    let updateModal5a = document.getElementById("mb5").innerHTML = `${firstName5}, good news, your bet is on!<br> 
+    let updateModal5a = document.getElementById("mb5").innerHTML = `${firstName5}, good news, your bet is on!<br><br> 
     You have chosen ${prediction5} to win in the match<br>
     ${match5}<br>
     Your amount staked is ` + `${gameAmount5}<br>
