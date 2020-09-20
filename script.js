@@ -450,7 +450,7 @@ seeResult5.addEventListener("click", function() {
         console.log(updateModal5b);
         console.log(updateModal5c);
 
-    } else if(result3 === "Draw") {
+    } else if(result5 === "Draw") {
         // Get amount and convert to number
         let gameAmount5 = document.getElementById("amount5").value;
         gameAmount5Slice = gameAmount5.slice(1);
