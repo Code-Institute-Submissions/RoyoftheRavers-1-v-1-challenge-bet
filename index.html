@@ -27,10 +27,12 @@
                 <!--User and Name Data-->
                 <div id="user-data">
                     <h3>Please enter your name</h3>
+                    <form onsubmit="return stopblanks()">
                     <label for="first-name">First Name:</label>
                     <input type="text" name="first-name" id="first-name1">
                     <label for="last-name">Last Name:</label>
                     <input type="text" name="last-name" id="last-name">
+                    </form>
                 </div>
                 <!--User Options to set Amount Bet and Team Selction-->
                 <div id="game-options">
@@ -50,7 +52,7 @@
                     <p class="draw-refund">Please note: If the match is draw, game credits will be returned to each player for the staked amount.</p>
                 </div>
                 <!--Button to Initiate Modal, Game, Set Data and Challenge Friend-->
-                    <button type="button" id="start1a" class="btn btn-info" data-toggle="modal" data-target="#Modal1Match1">Challenge Friend!
+                    <button type="input" onsubmit="return stopblanks()" id="start1a" class="btn btn-info" data-toggle="modal" data-target="#Modal1Match1">Challenge Friend!
                     </button>
                     <!--Modal 'Challenge Friend' Match 1-->   
                         <div class="modal" id="Modal1Match1" tabindex="-1" role="dialog" aria-labelledby="Man United v Liverpool" aria-hidden="true">

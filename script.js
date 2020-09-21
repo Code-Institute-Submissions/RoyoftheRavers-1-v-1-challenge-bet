@@ -3,7 +3,6 @@ $( function() {
     $( "#accordion" ).accordion({
       collapsible: true,
       active: false,
-      //heightStyle: content 
     });
   } );
 
@@ -11,7 +10,6 @@ $( function() {
   function stopblanks() {
     if(document.getElementById("first-name1").value === "") {
         alert('Please enter your first name');
-        document.getElementById("first-name1").style.borderColor = "red";
         return false;
     }  
   };
@@ -35,6 +33,7 @@ let gameStart = document.getElementById("start1a");
 // When the user clicks the button, the script gathers the choices
 gameStart.addEventListener("click", function (){
 
+   /* // If statement to validate empty fields
     if(document.getElementById("first-name1").value === "") {
         alert('Please enter your first name');
         return false;
@@ -44,7 +43,7 @@ gameStart.addEventListener("click", function (){
         alert('Please enter your last name');
         document.getElementById("last-name").style.borderColor = "red";
         return false;
-    }   else {
+    }   else { */
 
     // Get the user's first name
     let firstName1 = document.getElementById("first-name1").value;
@@ -66,7 +65,7 @@ gameStart.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
-    }
+    
 });
 
 // The result generating starts with clicking the 'See Result' button
