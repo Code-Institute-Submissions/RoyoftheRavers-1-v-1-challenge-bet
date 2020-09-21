@@ -2,9 +2,19 @@
 $( function() {
     $( "#accordion" ).accordion({
       collapsible: true,
-      active: false 
+      active: false,
+      //heightStyle: content 
     });
   } );
+
+// Validate no blanks in forms
+  function stopblanks() {
+    if(document.getElementById("first-name1").value === "") {
+        alert('Please enter your first name');
+        document.getElementById("first-name1").style.borderColor = "red";
+        return false;
+    }  
+  };
 
 // Add matches and match results to local Storage
 localStorage.setItem("match1", "between Man United and Liverpol.");
@@ -24,7 +34,18 @@ let gameStart = document.getElementById("start1a");
 
 // When the user clicks the button, the script gathers the choices
 gameStart.addEventListener("click", function (){
-  
+
+    if(document.getElementById("first-name1").value === "") {
+        alert('Please enter your first name');
+        return false;
+        
+
+    }  else if(document.getElementById("last-name").value === "") {
+        alert('Please enter your last name');
+        document.getElementById("last-name").style.borderColor = "red";
+        return false;
+    }   else {
+
     // Get the user's first name
     let firstName1 = document.getElementById("first-name1").value;
     console.log(firstName1);
@@ -45,6 +66,7 @@ gameStart.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
+    }
 });
 
 // The result generating starts with clicking the 'See Result' button
