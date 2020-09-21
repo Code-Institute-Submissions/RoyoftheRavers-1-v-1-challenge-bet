@@ -124,7 +124,7 @@ let gameStart2 = document.getElementById("start2a");
 gameStart2.addEventListener("click", function (){
   
     // Get the user's first name
-    let firstName2 = document.getElementById("first-name1").value;
+    let firstName2 = document.getElementById("first-name2").value;
     console.log(firstName2);
     // Get the user's team choice
     let prediction2 = document.getElementById("prediction2").value;
@@ -145,7 +145,7 @@ gameStart2.addEventListener("click", function (){
 });
 
 // The result generating starts with clicking the 'See Result' button
-let seeResult2 = document.getElementById("start1b");
+let seeResult2 = document.getElementById("start2b");
 
 // When the user clicks the button, script gets results to return
 seeResult2.addEventListener("click", function() {
@@ -165,7 +165,7 @@ seeResult2.addEventListener("click", function() {
     console.log(result2);
 
     // Return result outcome by updating Modal Header/Content/Footer based on prediction
-    if(predictions === results) {
+    if(prediction2 === result2) {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
         gameAmount2Slice = gameAmount2.slice(1);
@@ -177,7 +177,7 @@ seeResult2.addEventListener("click", function() {
         let updateModal2a = document.getElementById("mb2").innerHTML = `Congratulations ${firstName2}! <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
-        You have won €${gameAmount1Number * 2}!`;
+        You have won €${gameAmount2Number * 2}!`;
         console.log(updateModal2);
         console.log(updateModal2a);
 
@@ -206,7 +206,7 @@ seeResult2.addEventListener("click", function() {
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
         let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`
-        let updateModal2a = document.getElementById("mb2").innerHTML = `Commiserations ${firstName1}, <br><br>
+        let updateModal2a = document.getElementById("mb2").innerHTML = `Commiserations ${firstName2}, <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
         Better luck next time.`;
