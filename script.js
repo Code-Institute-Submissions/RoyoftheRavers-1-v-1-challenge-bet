@@ -332,8 +332,8 @@ gameStart4.addEventListener("click", function (){
 
     // Create variable to update the modal based on game choices made
     let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on!<br><br> 
-    You have chosen ${prediction4} to win in the match<br>
-    ${match4} in the US Open.<br>
+    You have chosen ${prediction4} to win the US Open<br>
+    ${match4}<br>
     Your amount staked is ` + `${gameAmount4}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
