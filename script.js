@@ -39,6 +39,7 @@ gameStart.addEventListener("click", function (){
     let updateModal1 = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
     You have chosen ${prediction1} to win in the match<br>
     ${match1}<br>
+    <br>
     Your amount staked is ` + `${gameAmount1}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
@@ -138,6 +139,7 @@ gameStart2.addEventListener("click", function (){
     let updateModal2 = document.getElementById("mb2").innerHTML = `${firstName2}, good news, your bet is on!<br> 
     You have chosen ${prediction2} to win in the match<br>
     ${match2}<br>
+    <br>
     Your amount staked is ` + `${gameAmount2}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
@@ -193,7 +195,8 @@ seeResult2.addEventListener("click", function() {
         let updateModal2a = document.getElementById("mb2").innerHTML = `Close call ${firstName2}! <br><br>
         It ended in a draw in the match<br>
         ${match2}<br><br>
-        You have been refunded €${gameAmount2Number} in game credit to use on any other challenge bets.<br>
+        You have been refunded €${gameAmount2Number} in game credit<br> 
+        to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
         console.log(updateModal2);
         console.log(updateModal2a); 
@@ -236,6 +239,7 @@ gameStart3.addEventListener("click", function (){
     let updateModal3a = document.getElementById("mb3").innerHTML = `${firstName3}, good news, your bet is on!<br><br> 
     You have chosen ${prediction3} to win in the match<br>
     ${match3}<br>
+    <br>
     Your amount staked is ` + `${gameAmount3}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
@@ -334,6 +338,7 @@ gameStart4.addEventListener("click", function (){
     let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on!<br><br> 
     You have chosen ${prediction4} to win the US Open<br>
     ${match4}<br>
+    <br>
     Your amount staked is ` + `${gameAmount4}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
@@ -418,6 +423,7 @@ gameStart5.addEventListener("click", function (){
     let updateModal5a = document.getElementById("mb5").innerHTML = `${firstName5}, good news, your bet is on!<br><br> 
     You have chosen ${prediction5} to win in the match<br>
     ${match5}<br>
+    <br>
     Your amount staked is ` + `${gameAmount5}<br>
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
