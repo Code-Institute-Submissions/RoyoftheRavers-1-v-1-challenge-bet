@@ -4,7 +4,8 @@
 ## Description
 1-v-1 Challenge Bet is a game that gives friends the opportunity to bet each other on the outcome of various sporting events.
 For the purposes of this project, it is assumed that once the user/game player challenges their friend to a game, that 
-friend accepts the invitation and plays the game.
+friend accepts the invitation and plays the game. In reality, and in future iterations, the recipient of the bet must first accept.
+Both users/friends would also be playing for real money whereby payment would be accepted by the platform.
 
 ## User Stories
 
