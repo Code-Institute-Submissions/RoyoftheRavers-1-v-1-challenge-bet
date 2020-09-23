@@ -27,9 +27,6 @@ localStorage.setItem("match4result", "The Field");
 localStorage.setItem("match5result", "Dublin");
 
 // Match 1: Man United v Liverpool
-
-
-
 // The game starts with this button for 'Challenge Friend'
 let gameStart = document.getElementById("start1a");
 
@@ -69,7 +66,7 @@ gameStart.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
-}
+    }
 });
     
     
@@ -83,7 +80,7 @@ seeResult1.addEventListener("click", function() {
     // Remove 'See Result' button from second modal
     $("#start1b").remove();
     
-    // Get the user's first name
+    // Get the user's first name and last name
     let firstName1 = document.getElementById("first-name1").value;
 
     // Get the user's team choice
@@ -152,9 +149,21 @@ let gameStart2 = document.getElementById("start2a");
 // When the user clicks the button, the script gathers the choices
 gameStart2.addEventListener("click", function (){
   
-    // Get the user's first name
+    // Get the user's first name and last name
     let firstName2 = document.getElementById("first-name2").value;
-    console.log(firstName2);
+    let lastName2 = document.getElementById("last-name2");
+    // If statement to validate empty name fields
+    if(firstName2 === "") {
+        alert('Please enter your first name');
+        return false;
+
+    }  else if(lastName2 === "") {
+        alert('Please enter your last name');
+        return false;
+
+    }   else {
+    // Open modal
+    $('#Modal1Match2').modal('show'); 
     // Get the user's team choice
     let prediction2 = document.getElementById("prediction2").value;
     // Get the Amount chosen
@@ -172,6 +181,7 @@ gameStart2.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal2);
+    }
 });
 
 // The result generating starts with clicking the 'See Result' button
@@ -253,9 +263,21 @@ let gameStart3 = document.getElementById("start3a");
 // When the user clicks the button, the script gathers the choices
 gameStart3.addEventListener("click", function (){
   
-    // Get the user's first name
+    // Get the user's first name and last name
     let firstName3 = document.getElementById("first-name3").value;
-    console.log(firstName3);
+    let lastName3 = document.getElementById("last-name3");
+    // If statement to validate empty name fields
+    if(firstName3 === "") {
+        alert('Please enter your first name');
+        return false;
+
+    }  else if(lastName3 === "") {
+        alert('Please enter your last name');
+        return false;
+
+    }   else {
+    // Open modal
+    $('#Modal1Match3').modal('show'); 
     // Get the user's team choice
     let prediction3 = document.getElementById("prediction3").value;
     // Get the Amount chosen
@@ -272,6 +294,7 @@ gameStart3.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal3a);
+    }
 });
 
 // The result generating starts with clicking the 'See Result' button
@@ -353,9 +376,21 @@ let gameStart4 = document.getElementById("start4a");
 // When the user clicks the button, the script gathers the choices
 gameStart4.addEventListener("click", function (){
   
-    // Get the user's first name
+    // Get the user's first name and last name
     let firstName4 = document.getElementById("first-name4").value;
-    console.log(firstName4);
+    let lastName4 = document.getElementById("last-name4");
+    // If statement to validate empty name fields
+    if(firstName4 === "") {
+        alert('Please enter your first name');
+        return false;
+
+    }  else if(lastName4 === "") {
+        alert('Please enter your last name');
+        return false;
+
+    }   else {
+    // Open modal
+    $('#Modal1Match4').modal('show'); 
     // Get the user's team choice
     let prediction4 = document.getElementById("prediction4").value;
     // Get the Amount chosen
@@ -372,6 +407,7 @@ gameStart4.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal4a);
+    }
 });
 
 // The result generating starts with clicking the 'See Result' button
@@ -438,9 +474,21 @@ let gameStart5 = document.getElementById("start5a");
 // When the user clicks the button, the script gathers the choices
 gameStart5.addEventListener("click", function (){
   
-    // Get the user's first name
+    // Get the user's first name and last name
     let firstName5 = document.getElementById("first-name5").value;
-    console.log(firstName5);
+    let lastName5 = document.getElementById("last-name5");
+    // If statement to validate empty name fields
+    if(firstName5 === "") {
+        alert('Please enter your first name');
+        return false;
+
+    }  else if(lastName5 === "") {
+        alert('Please enter your last name');
+        return false;
+
+    }   else {
+    // Open modal
+    $('#Modal1Match5').modal('show'); 
     // Get the user's team choice
     let prediction5 = document.getElementById("prediction5").value;
     // Get the Amount chosen
@@ -457,6 +505,7 @@ gameStart5.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal5a);
+    }
 });
 
 // The result generating starts with clicking the 'See Result' button
