@@ -3,8 +3,15 @@
     position: static;
 }
 
+.heading-font {
+    font-family: 'Lato', sans-serif;
+}
 
+/* Colors */
+.bg-blue {
+    background-color: #0A5EA3;
+}
 
-.class1 {
-    color: red;
+.font-orange {
+    color: #F09D1D;
 }

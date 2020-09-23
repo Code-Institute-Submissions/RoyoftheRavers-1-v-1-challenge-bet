@@ -10,6 +10,7 @@ Both users/friends would also be playing for real money whereby payment would be
 ## User Stories
 
 ## User Experience (UX)
+Accodions used due to popularity on other bookies websites (ADD SCREENSHOTS)
 
 ## Testing
 
