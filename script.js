@@ -151,7 +151,7 @@ gameStart2.addEventListener("click", function (){
   
     // Get the user's first name and last name
     let firstName2 = document.getElementById("first-name2").value;
-    let lastName2 = document.getElementById("last-name2");
+    let lastName2 = document.getElementById("last-name2").value;
     // If statement to validate empty name fields
     if(firstName2 === "") {
         alert('Please enter your first name');
@@ -265,7 +265,7 @@ gameStart3.addEventListener("click", function (){
   
     // Get the user's first name and last name
     let firstName3 = document.getElementById("first-name3").value;
-    let lastName3 = document.getElementById("last-name3");
+    let lastName3 = document.getElementById("last-name3").value;
     // If statement to validate empty name fields
     if(firstName3 === "") {
         alert('Please enter your first name');
@@ -378,7 +378,7 @@ gameStart4.addEventListener("click", function (){
   
     // Get the user's first name and last name
     let firstName4 = document.getElementById("first-name4").value;
-    let lastName4 = document.getElementById("last-name4");
+    let lastName4 = document.getElementById("last-name4").value;
     // If statement to validate empty name fields
     if(firstName4 === "") {
         alert('Please enter your first name');
@@ -476,7 +476,7 @@ gameStart5.addEventListener("click", function (){
   
     // Get the user's first name and last name
     let firstName5 = document.getElementById("first-name5").value;
-    let lastName5 = document.getElementById("last-name5");
+    let lastName5 = document.getElementById("last-name5").value;
     // If statement to validate empty name fields
     if(firstName5 === "") {
         alert('Please enter your first name');
