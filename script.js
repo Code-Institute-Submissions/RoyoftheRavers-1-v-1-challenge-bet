@@ -50,6 +50,8 @@ gameStart.addEventListener("click", function (){
         return false;
 
     }   else { 
+    // Open modal
+    $('#Modal1Match1').modal('show');
     // Get the user's team choice
     let prediction1 = document.getElementById("prediction1").value;
     // Get the Amount chosen
