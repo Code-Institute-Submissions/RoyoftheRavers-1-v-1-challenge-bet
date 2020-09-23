@@ -3,6 +3,10 @@
     position: static;
 }
 
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
+
 /* Fonts */
 
 .heading-font {
