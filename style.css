@@ -3,12 +3,15 @@
     position: static;
 }
 
+/* Fonts */
+
 .heading-font {
     font-family: 'Lato', sans-serif;
 }
 
 .refund-font {
     font-style: italic;
+    font-size: 0.85em;
 }
 
 /* Colors */
