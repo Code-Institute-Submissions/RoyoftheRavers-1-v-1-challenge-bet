@@ -28,16 +28,7 @@ localStorage.setItem("match5result", "Dublin");
 
 // Match 1: Man United v Liverpool
 
-// If statement to validate empty fields
-    if(document.getElementById("first-name1").value === "") {
-        alert('Please enter your first name');
-        return false;
 
-    }  else if(document.getElementById("last-name").value === "") {
-        alert('Please enter your last name');
-        return false;
-
-    }   else { 
 
 // The game starts with this button for 'Challenge Friend'
 let gameStart = document.getElementById("start1a");
@@ -45,11 +36,20 @@ let gameStart = document.getElementById("start1a");
 // When the user clicks the button, the script gathers the choices
 gameStart.addEventListener("click", function (){
 
-    
-
     // Get the user's first name
     let firstName1 = document.getElementById("first-name1").value;
-    console.log(firstName1);
+    // Get the user's last name
+    let lastName = document.getElementById("last-name").value;
+    // If statement to validate empty name fields
+    if(firstName1 === "") {
+        alert('Please enter your first name');
+        return false;
+
+    }  else if(lastName === "") {
+        alert('Please enter your last name');
+        return false;
+
+    }   else { 
     // Get the user's team choice
     let prediction1 = document.getElementById("prediction1").value;
     // Get the Amount chosen
@@ -67,8 +67,9 @@ gameStart.addEventListener("click", function (){
     Best of luck!<br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
-    }
-)};
+}
+});
+    
     
 
 // The result generating starts with clicking the 'See Result' button
