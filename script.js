@@ -101,7 +101,7 @@ seeResult1.addEventListener("click", function() {
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
-        let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <br><br>
+        let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <i class="fas fa-trophy font-gold"></i><br><br>
         ${result1} have won the match<br>
         ${match1}<br><br>
         You have won €${gameAmount1Number * 2}!`;
@@ -214,7 +214,7 @@ seeResult2.addEventListener("click", function() {
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
         let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
-        let updateModal2a = document.getElementById("mb2").innerHTML = `Congratulations ${firstName2}! <br><br>
+        let updateModal2a = document.getElementById("mb2").innerHTML = `Congratulations ${firstName2}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
         You have won €${gameAmount2Number * 2}!`;
@@ -327,7 +327,7 @@ seeResult3.addEventListener("click", function() {
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
         let updateModal3b = document.getElementById("Modal3").innerHTML = `Challenge Bet Result`;
-        let updateModal3c = document.getElementById("mb3").innerHTML = `Congratulations ${firstName3}! <br><br>
+        let updateModal3c = document.getElementById("mb3").innerHTML = `Congratulations ${firstName3}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result3} have won the match<br>
         ${match3}<br><br>
         You have won €${gameAmount3Number * 2}!`;
@@ -440,7 +440,7 @@ seeResult4.addEventListener("click", function() {
         let match4 = localStorage.getItem("match4");
         // Update HTML in modal
         let updateModal4b = document.getElementById("Modal4").innerHTML = `Challenge Bet Result`;
-        let updateModal4c = document.getElementById("mb4").innerHTML = `Congratulations ${firstName4}! <br><br>
+        let updateModal4c = document.getElementById("mb4").innerHTML = `Congratulations ${firstName4}! <i class="fas fa-trophy font-gold"></i> <br><br>
         Dustin Johnson has won the US Open,<br>
         which is a win for "The Field" in the match<br>
         ${match4}<br><br>
@@ -538,7 +538,7 @@ seeResult5.addEventListener("click", function() {
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
         let updateModal5b = document.getElementById("Modal5").innerHTML = `Challenge Bet Result`;
-        let updateModal5c = document.getElementById("mb5").innerHTML = `Congratulations ${firstName5}! <br><br>
+        let updateModal5c = document.getElementById("mb5").innerHTML = `Congratulations ${firstName5}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result5} have won the match<br>
         ${match5}<br><br>
         You have won €${gameAmount5Number * 2}!`;
