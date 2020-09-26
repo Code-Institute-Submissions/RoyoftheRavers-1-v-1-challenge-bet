@@ -37,7 +37,19 @@ The site owner has the following goals for the user on the website;
 <img src="/assets/images/result2a.JPG">
 
 ## User Experience (UX)
-Accodions used due to popularity on other bookies websites (ADD SCREENSHOTS)
+Accordions are used on the Challenge Bet game because of their conventional use with popular betting sites. This means the target
+audience is generally familar with the user of accordions for selecting sporting events to bet on and some will even expect them.
+As such, accordions are used in line with potential customer/user expectations.
+To show an example, here is a screenshot taken from popular betting site paddypower.com:<br>
+<img src="/assets/images/paddypaccordion.JPG"><br>
+
+In terms of colouring, the site uses blue to denote trust (important when using a site to bet against a friend) and orange which denotes 
+fun and reflects the fun element of betting against your friend.<br>
+<img src="/assets/images/blueorange.JPG"><br>
+
+There are coloured feedback icons throughout based on user choices and whether each bet was a win, loss or draw:<br>
+<img src="/assets/images/feedback1.JPG"><br>
+<img src="/assets/images/feedback2.JPG"><br>
 
 ## Testing
 
