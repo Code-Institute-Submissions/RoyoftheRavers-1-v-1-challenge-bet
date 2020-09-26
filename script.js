@@ -63,7 +63,7 @@ gameStart.addEventListener("click", function (){
     ${match1}<br>
     <br>
     Your amount staked is ` + `${gameAmount1}<br>
-    Best of luck!<br><br>
+    Best of luck! <i class="fas fa-handshake font-handshake"></i><br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal1);
     }
@@ -178,7 +178,7 @@ gameStart2.addEventListener("click", function (){
     ${match2}<br>
     <br>
     Your amount staked is ` + `${gameAmount2}<br>
-    Best of luck!<br><br>
+    Best of luck! <i class="fas fa-handshake font-handshake"></i><br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal2);
     }
@@ -291,7 +291,7 @@ gameStart3.addEventListener("click", function (){
     ${match3}<br>
     <br>
     Your amount staked is ` + `${gameAmount3}<br>
-    Best of luck!<br><br>
+    Best of luck! <i class="fas fa-handshake font-handshake"></i><br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal3a);
     }
@@ -404,7 +404,7 @@ gameStart4.addEventListener("click", function (){
     ${match4}<br>
     <br>
     Your amount staked is ` + `${gameAmount4}<br>
-    Best of luck!<br><br>
+    Best of luck! <i class="fas fa-handshake font-handshake"></i><br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal4a);
     }
@@ -502,7 +502,7 @@ gameStart5.addEventListener("click", function (){
     ${match5}<br>
     <br>
     Your amount staked is ` + `${gameAmount5}<br>
-    Best of luck!<br><br>
+    Best of luck! <i class="fas fa-handshake font-handshake"></i><br><br>
     PS when the match is over you can check the result below:`;
     console.log(updateModal5a);
     }
