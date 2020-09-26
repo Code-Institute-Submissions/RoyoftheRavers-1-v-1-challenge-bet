@@ -345,7 +345,7 @@ seeResult3.addEventListener("click", function() {
         let updateModal3b = document.getElementById("Modal3").innerHTML = `Challenge Bet Result`;
         let updateModal3c = document.getElementById("mb3").innerHTML = `Close call ${firstName3}! <br><br>
         It ended in a draw in the match<br>
-        ${match3}<br><br>
+        ${match3} <i class="fas fa-hourglass font-blue"></i><br><br>
         You have been refunded €${gameAmount3Number} in game credit<br>
         to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
