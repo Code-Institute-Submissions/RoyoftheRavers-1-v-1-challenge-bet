@@ -63,12 +63,19 @@ Future iterations of the game will enable challenge bet requests to be sent in r
 have the choice whether to accept the bet of not. Real money payments can also be added to further releases.
 
 ## Technologies
-
-
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The following technologies and resources were used;
+[j-query](https://plugins.jquery.com/) as a Javascript library,
+[j-query ui](https://jqueryui.com/) mainly for the use of accordions,
+[bootstrap](https://www.bootstrapcdn.com/) for elements such as modals,
+[google fonts](https://fonts.google.com/) for styling some of the site's text,
+[font awesome](https://fontawesome.com/) for the icons that were used,
+[ajax](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js) as a libray,
+[stack overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/) for learning purposes,
+[jsbin](https://jsbin.com/?html,output) and [jsfiddle](https://jsfiddle.net/) for experimenting with code.
 
 ## Wireframes
+<img src="/assets/images/wireframe1.JPG"><br>
+<img src="/assets/images/wireframe2.JPG"><br>
 
 ## Acknowledgements
 My mentor Felipe provided excellent guidance throughout the project and helped a lot with the planning aspects. Code Institute tutoring assisted greatly with several technical issues I
