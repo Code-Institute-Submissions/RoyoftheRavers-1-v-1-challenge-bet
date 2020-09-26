@@ -119,7 +119,7 @@ seeResult1.addEventListener("click", function() {
         let updateModalh = document.getElementById("Modal1").innerHTML = `Challenge Bet Result`;
         let updateModal2 = document.getElementById("mb1").innerHTML = `Close call ${firstName1}! <br><br>
         It ended in a draw in the match<br>
-        ${match1}<br><br>
+        ${match1} <i class="fas fa-hourglass font-blue"><br><br>
         You have been refunded €${gameAmount1Number} in game credit to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
         console.log(updateModalh);
@@ -232,7 +232,7 @@ seeResult2.addEventListener("click", function() {
         let updateModal2 = document.getElementById("Modal2").innerHTML = `Challenge Bet Result`;
         let updateModal2a = document.getElementById("mb2").innerHTML = `Close call ${firstName2}! <br><br>
         It ended in a draw in the match<br>
-        ${match2}<br><br>
+        ${match2} <i class="fas fa-hourglass font-blue"><br><br>
         You have been refunded €${gameAmount2Number} in game credit<br> 
         to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
@@ -347,7 +347,7 @@ seeResult3.addEventListener("click", function() {
         It ended in a draw in the match<br>
         ${match3} <i class="fas fa-hourglass font-blue"></i><br><br>
         You have been refunded €${gameAmount3Number} in game credit<br>
-        to use on any other challenge bets.<br>
+        to use on any other challenge bets.<br><br>
         Good luck in your next challenge bet!`;
         console.log(updateModal3b);
         console.log(updateModal3c); 
@@ -556,7 +556,7 @@ seeResult5.addEventListener("click", function() {
         let updateModal5b = document.getElementById("Modal5").innerHTML = `Challenge Bet Result`;
         let updateModal5c = document.getElementById("mb5").innerHTML = `Close call ${firstName5}! <br><br>
         It ended in a draw in the match<br>
-        ${match5}<br><br>
+        ${match5} <i class="fas fa-hourglass font-blue"><br><br>
         You have been refunded €${gameAmount5Number} in game credit to use on any other challenge bets.<br>
         Good luck in your next challenge bet!`;
         console.log(updateModal5b);
@@ -578,12 +578,3 @@ seeResult5.addEventListener("click", function() {
         console.log(updateModal5c);
     } 
     });
-    
-    // Game functions
-
-    
-  // For final modal define variables
-
-  // Use method chaining to update classes based on button click and if statement
-
-  
