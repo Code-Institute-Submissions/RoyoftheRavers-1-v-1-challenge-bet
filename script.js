@@ -6,14 +6,6 @@ $( function() {
     });
   } );
 
-/* // Validate no blanks in forms
-  function stopblanks() {
-    if(document.getElementById("first-name1").value === "") {
-        alert('Please enter your first name');
-        return false;
-    }  
-  }; */
-
 // Add matches and match results to local Storage
 localStorage.setItem("match1", "between Man United and Liverpol.");
 localStorage.setItem("match2", "between Real Madrid and Barcelona.");
@@ -67,9 +59,7 @@ gameStart.addEventListener("click", function (){
     PS when the match is over you can check the result below <i class="fas fa-caret-square-down"></i>`;
     console.log(updateModal1);
     }
-});
-    
-    
+});  
 
 // The result generating starts with clicking the 'See Result' button
 let seeResult1 = document.getElementById("start1b");
