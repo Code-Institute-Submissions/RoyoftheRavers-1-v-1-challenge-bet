@@ -52,8 +52,35 @@ There are coloured feedback icons throughout based on user choices and whether e
 <img src="/assets/images/feedback2.JPG"><br>
 
 ## Testing
+The following manual testing was carried out.<br><br>
+Validation:
+- First Name field cannot be blank, alert appears (PASS - all five games)
+- Last Name field cannot be blank, alert appears (PASS - all five games)
 
+Game selection:
+- User can choose bet amount
+- User can predict winning team
+- 'Challenge Friend!' button opens modal with game details
 
+Game 1:
+- Man United selection returns winning message with stake multiplied by 2 (PASS)
+- Liverpool selection returns losing message (PASS)
+
+Game 2:
+- Real Madrid selection returns losing message (PASS)
+- Barcelona selection returns winning message with stake multiplied by 2 (PASS)
+
+Game 3:
+- Ireland selection returns draw message with refund of amount staked (PASS)
+- England selection returns draw message with refund of amount staked (PASS)
+
+Game 4:
+- Rory McIlroy selection returns losing message (PASS)
+- The Field selection returns winning message with stake multiplied by 2 (PASS)
+
+Game 5:
+- Dublin selection returns winning message with stake multiplied by 2 (PASS)
+- Kerry selection returns losing message (PASS)
 
 
 ## Features
@@ -79,5 +106,5 @@ The following technologies and resources were used;
 
 ## Acknowledgements
 My mentor Felipe provided excellent guidance throughout the project and helped a lot with the planning aspects. Code Institute tutoring assisted greatly with several technical issues I
-encountered throughout the project. 
+encountered throughout the project. Code Institute's support provided encouragement, assistance and support throughout.
 
