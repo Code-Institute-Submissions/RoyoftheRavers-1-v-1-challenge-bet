@@ -1,12 +1,13 @@
 <img src="/assets/images/gametitleimage.JPG" style="margin: 0;">
 
+This project - entitled 1-v-1 Challenge Bet - is for Milestone Project 2, Interactive Frontend Development, in the Code Institute.
 
 ## Description
 1-v-1 Challenge Bet is a game that gives friends the opportunity to bet each other on the outcome of various sporting events.
 For the purposes of this project, it is assumed that once the user/game player challenges their friend to a game, that 
 friend accepts the invitation and plays the game. In reality, and in future iterations, the recipient of the bet must first accept.
 Both users/friends would also be playing for real money whereby payment would be accepted by the platform.
-The matches have pre-determined results, which are stored using local Storage in Javascript. Future iterations will contain the use of databases.
+The matches have pre-determined results, which are stored using local Storage in Javascript. Future iterations will include the use of databases.
 Although no money is acceptance on the site for technological and licencing reasons, the idea behind the project is to give users a "first glimpse"
 of how a production ready version of the site may look. It is ideal for getting initial feedback from the target audience, by asking users which test
 features they like, do not like, would like to add etc. 
@@ -82,9 +83,6 @@ Game 5:
 - Dublin selection returns winning message with stake multiplied by 2 (PASS)
 - Kerry selection returns losing message (PASS)
 
-
-## Features
-
 ## Scalabity
 Future iterations of the game will enable challenge bet requests to be sent in real time to other friends. They will
 have the choice whether to accept the bet of not. Real money payments can also be added to further releases.
@@ -107,4 +105,3 @@ The following technologies and resources were used;
 ## Acknowledgements
 My mentor Felipe provided excellent guidance throughout the project and helped a lot with the planning aspects. Code Institute tutoring assisted greatly with several technical issues I
 encountered throughout the project. Code Institute's support provided encouragement, assistance and support throughout.
-
