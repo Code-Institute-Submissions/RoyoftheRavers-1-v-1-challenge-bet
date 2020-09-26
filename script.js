@@ -58,7 +58,7 @@ gameStart.addEventListener("click", function (){
     let match1 = localStorage.getItem("match1");
 
     // Create variable to update the modal based on game choices made
-    let updateModal1 = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on!<br> 
+    let updateModal1 = document.getElementById("mb1").innerHTML = `${firstName1}, good news, your bet is on! <i class="fas fa-check-circle font-blue"></i><br> 
     You have chosen ${prediction1} to win in the match<br>
     ${match1}<br>
     <br>
@@ -173,7 +173,7 @@ gameStart2.addEventListener("click", function (){
     let match2 = localStorage.getItem("match2");
 
     // Create variable to update the modal based on game choices made
-    let updateModal2 = document.getElementById("mb2").innerHTML = `${firstName2}, good news, your bet is on!<br> 
+    let updateModal2 = document.getElementById("mb2").innerHTML = `${firstName2}, good news, your bet is on! <i class="fas fa-check-circle font-blue"></i><br> 
     You have chosen ${prediction2} to win in the match<br>
     ${match2}<br>
     <br>
@@ -286,7 +286,7 @@ gameStart3.addEventListener("click", function (){
     let match3 = localStorage.getItem("match3");
 
     // Create variable to update the modal based on game choices made
-    let updateModal3a = document.getElementById("mb3").innerHTML = `${firstName3}, good news, your bet is on!<br><br> 
+    let updateModal3a = document.getElementById("mb3").innerHTML = `${firstName3}, good news, your bet is on! <i class="fas fa-check-circle font-blue"></i><br><br> 
     You have chosen ${prediction3} to win in the match<br>
     ${match3}<br>
     <br>
@@ -399,7 +399,7 @@ gameStart4.addEventListener("click", function (){
     let match4 = localStorage.getItem("match4");
 
     // Create variable to update the modal based on game choices made
-    let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on!<br><br> 
+    let updateModal4a = document.getElementById("mb4").innerHTML = `${firstName4}, good news, your bet is on! <i class="fas fa-check-circle font-blue"></i><br><br> 
     You have chosen ${prediction4} to win the US Open<br>
     ${match4}<br>
     <br>
@@ -497,7 +497,7 @@ gameStart5.addEventListener("click", function (){
     let match5 = localStorage.getItem("match5");
 
     // Create variable to update the modal based on game choices made
-    let updateModal5a = document.getElementById("mb5").innerHTML = `${firstName5}, good news, your bet is on!<br><br> 
+    let updateModal5a = document.getElementById("mb5").innerHTML = `${firstName5}, good news, your bet is on! <i class="fas fa-check-circle font-blue"></i><br><br> 
     You have chosen ${prediction5} to win in the match<br>
     ${match5}<br>
     <br>
