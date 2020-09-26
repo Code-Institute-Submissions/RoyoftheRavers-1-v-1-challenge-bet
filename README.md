@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="/assets/images/gametitleimage.JPG" style="margin: 0;">
 
 
 ## Description
@@ -14,6 +14,9 @@ Accodions used due to popularity on other bookies websites (ADD SCREENSHOTS)
 
 ## Testing
 
+
+
+
 ## Features
 
 ## Scalabity
@@ -22,7 +25,6 @@ have the choice whether to accept the bet of not. Real money payments can also b
 
 ## Technologies
 
-`python3 -m http.server`
 
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
@@ -30,5 +32,6 @@ To run a backend Python file, type `python3 app.py`, if your Python file is name
 ## Wireframes
 
 ## Acknowledgements
-
+My mentor Felipe provided excellent guidance throughout the project and helped a lot with the planning aspects. Code Institute tutoring assisted greatly with several technical issues I
+encountered throughout the project. 
 
