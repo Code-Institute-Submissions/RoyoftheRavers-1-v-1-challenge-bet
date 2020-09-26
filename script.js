@@ -104,7 +104,7 @@ seeResult1.addEventListener("click", function() {
         let updateModal2 = document.getElementById("mb1").innerHTML = `Congratulations ${firstName1}! <i class="fas fa-trophy font-gold"></i><br><br>
         ${result1} have won the match<br>
         ${match1}<br><br>
-        You have won €${gameAmount1Number * 2}!`;
+        You have won €${gameAmount1Number * 2}! <i class="fas fa-money-bill-wave font-money"></i>`;
         console.log(updateModalh);
         console.log(updateModal2);
 
@@ -217,7 +217,7 @@ seeResult2.addEventListener("click", function() {
         let updateModal2a = document.getElementById("mb2").innerHTML = `Congratulations ${firstName2}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result2} have won the match<br>
         ${match2}<br><br>
-        You have won €${gameAmount2Number * 2}!`;
+        You have won €${gameAmount2Number * 2}! <i class="fas fa-money-bill-wave font-money"></i>`;
         console.log(updateModal2);
         console.log(updateModal2a);
 
@@ -330,7 +330,7 @@ seeResult3.addEventListener("click", function() {
         let updateModal3c = document.getElementById("mb3").innerHTML = `Congratulations ${firstName3}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result3} have won the match<br>
         ${match3}<br><br>
-        You have won €${gameAmount3Number * 2}!`;
+        You have won €${gameAmount3Number * 2}! <i class="fas fa-money-bill-wave font-money"></i>`;
         console.log(updateModal3b);
         console.log(updateModal3c);
 
@@ -444,7 +444,7 @@ seeResult4.addEventListener("click", function() {
         Dustin Johnson has won the US Open,<br>
         which is a win for "The Field" in the match<br>
         ${match4}<br><br>
-        You have won €${gameAmount4Number * 2}!`;
+        You have won €${gameAmount4Number * 2}! <i class="fas fa-money-bill-wave font-money"></i>`;
         console.log(updateModal4b);
         console.log(updateModal4c);
 
@@ -541,7 +541,7 @@ seeResult5.addEventListener("click", function() {
         let updateModal5c = document.getElementById("mb5").innerHTML = `Congratulations ${firstName5}! <i class="fas fa-trophy font-gold"></i> <br><br>
         ${result5} have won the match<br>
         ${match5}<br><br>
-        You have won €${gameAmount5Number * 2}!`;
+        You have won €${gameAmount5Number * 2}! <i class="fas fa-money-bill-wave font-money"></i>`;
         console.log(updateModal5b);
         console.log(updateModal5c);
 
