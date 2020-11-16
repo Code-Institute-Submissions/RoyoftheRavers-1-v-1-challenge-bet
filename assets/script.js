@@ -85,8 +85,8 @@ seeResult1.addEventListener("click", function() {
     if(prediction1 === result1) {
         // Get amount and convert to number
         let gameAmount1 = document.getElementById("amount1").value;
-        gameAmount1Slice = gameAmount1.slice(1);
-        gameAmount1Number = parseInt(gameAmount1Slice);
+        let gameAmount1Slice = gameAmount1.slice(1);
+        let gameAmount1Number = parseInt(gameAmount1Slice);
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
@@ -101,8 +101,8 @@ seeResult1.addEventListener("click", function() {
     } else if(result1 === "Draw") {
         // Get amount and convert to number
         let gameAmount1 = document.getElementById("amount1").value;
-        gameAmount1Slice = gameAmount1.slice(1);
-        gameAmount1Number = parseInt(gameAmount1Slice);
+        let gameAmount1Slice = gameAmount1.slice(1);
+        let gameAmount1Number = parseInt(gameAmount1Slice);
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
@@ -117,8 +117,8 @@ seeResult1.addEventListener("click", function() {
     } else {
         // Get amount and convert to number
         let gameAmount1 = document.getElementById("amount1").value;
-        gameAmount1Slice = gameAmount1.slice(1);
-        gameAmount1Number = parseInt(gameAmount1Slice);
+        let gameAmount1Slice = gameAmount1.slice(1);
+        let gameAmount1Number = parseInt(gameAmount1Slice);
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
@@ -198,8 +198,8 @@ seeResult2.addEventListener("click", function() {
     if(prediction2 === result2) {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
-        gameAmount2Slice = gameAmount2.slice(1);
-        gameAmount2Number = parseInt(gameAmount2Slice);
+        let gameAmount2Slice = gameAmount2.slice(1);
+        let gameAmount2Number = parseInt(gameAmount2Slice);
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
@@ -214,8 +214,8 @@ seeResult2.addEventListener("click", function() {
     } else if(result2 === "Draw") {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
-        gameAmount2Slice = gameAmount2.slice(1);
-        gameAmount2Number = parseInt(gameAmount2Slice);
+        let gameAmount2Slice = gameAmount2.slice(1);
+        let gameAmount2Number = parseInt(gameAmount2Slice);
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
@@ -231,8 +231,8 @@ seeResult2.addEventListener("click", function() {
     } else {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
-        gameAmount2Slice = gameAmount2.slice(1);
-        gameAmount2Number = parseInt(gameAmount2Slice);
+        let gameAmount2Slice = gameAmount2.slice(1);
+        let gameAmount2Number = parseInt(gameAmount2Slice);
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
@@ -311,8 +311,8 @@ seeResult3.addEventListener("click", function() {
     if(prediction3 === result3) {
         // Get amount and convert to number
         let gameAmount3 = document.getElementById("amount3").value;
-        gameAmount3Slice = gameAmount3.slice(1);
-        gameAmount3Number = parseInt(gameAmount3Slice);
+        let gameAmount3Slice = gameAmount3.slice(1);
+        let gameAmount3Number = parseInt(gameAmount3Slice);
         // Get the match
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
@@ -327,8 +327,8 @@ seeResult3.addEventListener("click", function() {
     } else if(result3 === "Draw") {
         // Get amount and convert to number
         let gameAmount3 = document.getElementById("amount3").value;
-        gameAmount3Slice = gameAmount3.slice(1);
-        gameAmount3Number = parseInt(gameAmount3Slice);
+        let gameAmount3Slice = gameAmount3.slice(1);
+        let gameAmount3Number = parseInt(gameAmount3Slice);
         // Get the match
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
@@ -344,8 +344,8 @@ seeResult3.addEventListener("click", function() {
     } else {
         // Get amount and convert to number
         let gameAmount3 = document.getElementById("amount3").value;
-        gameAmount3Slice = gameAmount3.slice(1);
-        gameAmount3Number = parseInt(gameAmount3Slice);
+        let gameAmount3Slice = gameAmount3.slice(1);
+        let gameAmount3Number = parseInt(gameAmount3Slice);
         // Get the match
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
@@ -424,8 +424,8 @@ seeResult4.addEventListener("click", function() {
     if(prediction4 === result4) {
         // Get amount and convert to number
         let gameAmount4 = document.getElementById("amount4").value;
-        gameAmount4Slice = gameAmount4.slice(1);
-        gameAmount4Number = parseInt(gameAmount4Slice);
+        let gameAmount4Slice = gameAmount4.slice(1);
+        let gameAmount4Number = parseInt(gameAmount4Slice);
         // Get the match
         let match4 = localStorage.getItem("match4");
         // Update HTML in modal
@@ -441,8 +441,8 @@ seeResult4.addEventListener("click", function() {
     } else {
         // Get amount and convert to number
         let gameAmount4 = document.getElementById("amount4").value;
-        gameAmount4Slice = gameAmount4.slice(1);
-        gameAmount4Number = parseInt(gameAmount4Slice);
+        let gameAmount4Slice = gameAmount4.slice(1);
+        let gameAmount4Number = parseInt(gameAmount4Slice);
         // Get the match
         let match4 = localStorage.getItem("match4");
         // Update HTML in modal
@@ -522,8 +522,8 @@ seeResult5.addEventListener("click", function() {
     if(prediction5 === result5) {
         // Get amount and convert to number
         let gameAmount5 = document.getElementById("amount5").value;
-        gameAmount5Slice = gameAmount5.slice(1);
-        gameAmount5Number = parseInt(gameAmount5Slice);
+        let gameAmount5Slice = gameAmount5.slice(1);
+        let gameAmount5Number = parseInt(gameAmount5Slice);
         // Get the match
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
@@ -538,8 +538,8 @@ seeResult5.addEventListener("click", function() {
     } else if(result5 === "Draw") {
         // Get amount and convert to number
         let gameAmount5 = document.getElementById("amount5").value;
-        gameAmount5Slice = gameAmount5.slice(1);
-        gameAmount5Number = parseInt(gameAmount5Slice);
+        let gameAmount5Slice = gameAmount5.slice(1);
+        let gameAmount5Number = parseInt(gameAmount5Slice);
         // Get the match
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
@@ -554,8 +554,8 @@ seeResult5.addEventListener("click", function() {
     } else {
         // Get amount and convert to number
         let gameAmount5 = document.getElementById("amount5").value;
-        gameAmount5Slice = gameAmount5.slice(1);
-        gameAmount5Number = parseInt(gameAmount5Slice);
+        let gameAmount5Slice = gameAmount5.slice(1);
+        let gameAmount5Number = parseInt(gameAmount5Slice);
         // Get the match
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
