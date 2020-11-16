@@ -115,9 +115,6 @@ seeResult1.addEventListener("click", function() {
         console.log(updateModalh);
         console.log(updateModal2); 
     } else {
-        // Get amount and convert to number
-        let gameAmount1 = document.getElementById("amount1").value;
-        let gameAmount1Slice = gameAmount1.slice(1);
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
@@ -228,9 +225,6 @@ seeResult2.addEventListener("click", function() {
         console.log(updateModal2);
         console.log(updateModal2a); 
     } else {
-        // Get amount and convert to number
-        let gameAmount2 = document.getElementById("amount2").value;
-        let gameAmount2Slice = gameAmount2.slice(1);
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
@@ -340,9 +334,6 @@ seeResult3.addEventListener("click", function() {
         console.log(updateModal3b);
         console.log(updateModal3c); 
     } else {
-        // Get amount and convert to number
-        let gameAmount3 = document.getElementById("amount3").value;
-        let gameAmount3Slice = gameAmount3.slice(1);
         // Get the match
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
@@ -436,9 +427,6 @@ seeResult4.addEventListener("click", function() {
         console.log(updateModal4c);
 
     } else {
-        // Get amount and convert to number
-        let gameAmount4 = document.getElementById("amount4").value;
-        let gameAmount4Slice = gameAmount4.slice(1);
         // Get the match
         let match4 = localStorage.getItem("match4");
         // Update HTML in modal
@@ -548,9 +536,6 @@ seeResult5.addEventListener("click", function() {
         console.log(updateModal5b);
         console.log(updateModal5c); 
     } else {
-        // Get amount and convert to number
-        let gameAmount5 = document.getElementById("amount5").value;
-        let gameAmount5Slice = gameAmount5.slice(1);
         // Get the match
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
