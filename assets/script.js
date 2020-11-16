@@ -118,7 +118,6 @@ seeResult1.addEventListener("click", function() {
         // Get amount and convert to number
         let gameAmount1 = document.getElementById("amount1").value;
         let gameAmount1Slice = gameAmount1.slice(1);
-        let gameAmount1Number = parseInt(gameAmount1Slice);
         // Get the match
         let match1 = localStorage.getItem("match1");
         // Update HTML in modal
@@ -232,7 +231,6 @@ seeResult2.addEventListener("click", function() {
         // Get amount and convert to number
         let gameAmount2 = document.getElementById("amount2").value;
         let gameAmount2Slice = gameAmount2.slice(1);
-        let gameAmount2Number = parseInt(gameAmount2Slice);
         // Get the match
         let match2 = localStorage.getItem("match2");
         // Update HTML in modal
@@ -345,7 +343,6 @@ seeResult3.addEventListener("click", function() {
         // Get amount and convert to number
         let gameAmount3 = document.getElementById("amount3").value;
         let gameAmount3Slice = gameAmount3.slice(1);
-        let gameAmount3Number = parseInt(gameAmount3Slice);
         // Get the match
         let match3 = localStorage.getItem("match3");
         // Update HTML in modal
@@ -442,7 +439,6 @@ seeResult4.addEventListener("click", function() {
         // Get amount and convert to number
         let gameAmount4 = document.getElementById("amount4").value;
         let gameAmount4Slice = gameAmount4.slice(1);
-        let gameAmount4Number = parseInt(gameAmount4Slice);
         // Get the match
         let match4 = localStorage.getItem("match4");
         // Update HTML in modal
@@ -555,7 +551,6 @@ seeResult5.addEventListener("click", function() {
         // Get amount and convert to number
         let gameAmount5 = document.getElementById("amount5").value;
         let gameAmount5Slice = gameAmount5.slice(1);
-        let gameAmount5Number = parseInt(gameAmount5Slice);
         // Get the match
         let match5 = localStorage.getItem("match5");
         // Update HTML in modal
