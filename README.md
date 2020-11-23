@@ -83,6 +83,14 @@ Game 5:
 - Dublin selection returns winning message with stake multiplied by 2 (PASS)
 - Kerry selection returns losing message (PASS)
 
+## Deployment
+The project was deployed using Gitpob, with commits being pushed to Gitlab with descriptive messages 
+for each commit. The general rule of thumb used was to commit after every major change such as the 
+introduction of a new feature or have after 4 or 5 minor changes, such as new text or grammar fixes etc.
+Regular commits were subsequently pushed to the main branch which can be accessed [here](https://github.com/RoyoftheRavers/1-v-1-challenge-bet).<br>
+The steps taken to deploy the website were as follows:<br> 
+[Github](https://github.com/Code-Institute-Org/gitpod-full-template) > 1-v-1-challenge-bet repository > 'Settings' > 'GitHub Pages' > 'Branch: Master' > [URL](https://royoftheravers.github.io/1-v-1-challenge-bet/) generated
+
 ## Scalabity
 Future iterations of the game will enable challenge bet requests to be sent in real time to other friends. They will
 have the choice whether to accept the bet of not. Real money payments can also be added to further releases.
