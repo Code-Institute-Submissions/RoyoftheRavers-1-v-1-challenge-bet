@@ -53,6 +53,10 @@ There are coloured feedback icons throughout based on user choices and whether e
 <img src="/assets/images/feedback2.JPG"><br>
 
 ## Testing
+The HTML code was validated using [this validator](https://validator.w3.org/nu) and showed no errors. The JavaScript code 
+was validated using [JS hint](https://jshint.com/). A number of undefined variables were identified, these were subsequently 
+identified correctly and no longer appear as errors in the validation tool.<br>
+
 The following manual testing was carried out.<br><br>
 Validation:
 - First Name field cannot be blank, alert appears (PASS - all five games)
