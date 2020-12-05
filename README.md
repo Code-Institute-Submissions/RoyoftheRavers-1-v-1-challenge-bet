@@ -100,6 +100,7 @@ Command Line Interface (CLI) to store it. Once cloned locally, you can being mak
 ## Scalabity
 Future iterations of the game will enable challenge bet requests to be sent in real time to other friends. They will
 have the choice whether to accept the bet of not. Real money payments can also be added to further releases.
+UX can be enhanced furter by improving user game options based on what was chosen already.
 
 ## Technologies
 The following technologies and resources were used;
