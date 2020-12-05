@@ -90,6 +90,8 @@ introduction of a new feature or have after 4 or 5 minor changes, such as new te
 Regular commits were subsequently pushed to the main branch which can be accessed [here](https://github.com/RoyoftheRavers/1-v-1-challenge-bet).<br>
 The steps taken to deploy the website were as follows:<br> 
 [Github](https://github.com/Code-Institute-Org/gitpod-full-template) > 1-v-1-challenge-bet repository > 'Settings' > 'GitHub Pages' > 'Branch: Master' > [URL](https://royoftheravers.github.io/1-v-1-challenge-bet/) generated
+Cloning a copy of the repository can also be done by creating a local copy. This can be done by intalling Git and using the 
+Command Line Interface (CLI) to store it. Once cloned locally, you can being making edits in any text editor.
 
 ## Scalabity
 Future iterations of the game will enable challenge bet requests to be sent in real time to other friends. They will
@@ -104,7 +106,8 @@ The following technologies and resources were used;
 [font awesome](https://fontawesome.com/) for the icons that were used,
 [ajax](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js) as a libray,
 [stack overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/) for learning purposes,
-[jsbin](https://jsbin.com/?html,output) and [jsfiddle](https://jsfiddle.net/) for experimenting with code.
+[jsbin](https://jsbin.com/?html,output) and [jsfiddle](https://jsfiddle.net/) for experimenting with code,
+[how to geek](www.howtogeek.com) for research on the best way to clone a github repository.
 
 ## Wireframes
 <img src="/assets/images/wireframe1.JPG"><br>
