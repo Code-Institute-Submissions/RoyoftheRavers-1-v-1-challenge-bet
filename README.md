@@ -3,37 +3,37 @@
 This project - entitled 1-v-1 Challenge Bet - is for Milestone Project 2, Interactive Frontend Development, in the Code Institute.
 
 ## Description
-1-v-1 Challenge Bet is a game that gives friends the opportunity to bet each other on the outcome of various sporting events.
+[1-v-1 Challenge Bet](https://royoftheravers.github.io/1-v-1-challenge-bet/) is a game that gives friends the opportunity to bet each other on the outcome of various sporting events.
 For the purposes of this project, it is assumed that once the user/game player challenges their friend to a game, that 
 friend accepts the invitation and plays the game. In reality, and in future iterations, the recipient of the bet must first accept.
 Both users/friends would also be playing for real money whereby payment would be accepted by the platform.
 The matches have pre-determined results, which are stored using local Storage in Javascript. Future iterations will include the use of databases.
-Although no money is acceptance on the site for technological and licencing reasons, the idea behind the project is to give users a "first glimpse"
+Although no money is accepted on the site for technological and licencing reasons, the idea behind the project is to give users a "first glimpse"
 of how a production ready version of the site may look. It is ideal for getting initial feedback from the target audience, by asking users which test
-features they like, do not like, would like to add etc. 
+features they like, do not like, would like to add etc.
 
 ## User Stories
 External users have the following goals when entering the website;
-1. Choose a sporting event which they can challenge their friend to bet on:<br>
+1. As a user, I want to choose a sporting event to challenge my friend and bet on:<br>
 <img src="/assets/images/eventchoice.JPG"><br>
 <br>
-2. Select the stake amount to wager on the bet and their team choice:<br>
+2. As a user, I want to select the stake amount to wager on the bet and my team choice:<br>
 <img src="/assets/images/chooseamount.JPG"><br>
 <img src="/assets/images/chooseteam1.JPG">
 <br>
-3. See the result and outcome of their bet:<br>
+3. As a user, I want to see the result and outcome of my bet:<br>
 <img src="/assets/images/result1.JPG"><br>
 <img src="/assets/images/result1a.JPG">
 
 The site owner has the following goals for the user on the website;
-1. Ensure simplicity for the user to select their event:<br>
+1. As a site owner, I want to ensure simplicity for the user to select their event:<br>
 <img src="/assets/images/eventchoice.JPG"><br>
 <br>
-2. Make it easy for the user to select the amount wagered and choose their team:<br>
+2. As a site owner, I want to make it easy for the user to select the amount wagered and choose their team:<br>
 <img src="/assets/images/chooseamount.JPG"><br>
 <img src="/assets/images/chooseteam2.JPG">
 <br>
-3. Provide feedback and results to the user in a non-serious, fun style:<br>
+3. As a site owner, I want to provide feedback and results to the user in a non-serious, fun style:<br>
 <img src="/assets/images/result2.JPG"><br>
 <img src="/assets/images/result2a.JPG">
 
